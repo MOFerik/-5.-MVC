@@ -207,5 +207,11 @@ namespace ЛР5.MVC
             text++;
             label2.Text = Convert.ToString(text);
         }
+
+         private void Button1_Click(object sender, EventArgs e)
+         {
+            Form2 newForm = new Form2();
+            newForm.Show();
+        }
     }
 }

@@ -8,3 +8,4 @@ C:\Users\deadp\Desktop\Projects\Programms\2 курс - ООП\ЛР5. MVC\ЛР5. 
 C:\Users\deadp\Desktop\Projects\Programms\2 курс - ООП\ЛР5. MVC\ЛР5. MVC\obj\Debug\ЛР5. MVC.csproj.CoreCompileInputs.cache
 C:\Users\deadp\Desktop\Projects\Programms\2 курс - ООП\ЛР5. MVC\ЛР5. MVC\obj\Debug\ЛР5.MVC.exe
 C:\Users\deadp\Desktop\Projects\Programms\2 курс - ООП\ЛР5. MVC\ЛР5. MVC\obj\Debug\ЛР5.MVC.pdb
+C:\Users\deadp\Desktop\Projects\Programms\2 курс - ООП\ЛР5. MVC\ЛР5. MVC\obj\Debug\ЛР5.MVC.Form2.resources
