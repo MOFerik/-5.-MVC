@@ -48,6 +48,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(226, 22);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "0";
             this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox1_KeyPress);
             // 
@@ -57,6 +58,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(226, 22);
             this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "1";
             this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
             // numericUpDown1
@@ -67,6 +69,11 @@
             -590869294,
             5421010,
             0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            268435455,
+            1042612833,
+            542101086,
+            -2147483648});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(225, 22);
             this.numericUpDown1.TabIndex = 2;
@@ -80,9 +87,19 @@
             -590869294,
             5421010,
             0});
+            this.numericUpDown2.Minimum = new decimal(new int[] {
+            268435455,
+            1042612833,
+            542101086,
+            -2147483648});
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(225, 22);
             this.numericUpDown2.TabIndex = 3;
+            this.numericUpDown2.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown2.ValueChanged += new System.EventHandler(this.NumericUpDown2_ValueChanged);
             // 
             // label1
@@ -142,7 +159,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(16, 17);
             this.label2.TabIndex = 9;
-            this.label2.Text = "0";
+            this.label2.Text = "1";
             this.label2.TextChanged += new System.EventHandler(this.Label2_TextChanged);
             // 
             // Form1
@@ -173,7 +190,6 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonMi1;
@@ -181,6 +197,7 @@
         private System.Windows.Forms.Button buttonMi2;
         private System.Windows.Forms.Button buttonPl2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
 
