@@ -59,6 +59,7 @@
             this.buttonPl2.TabIndex = 18;
             this.buttonPl2.Text = "+";
             this.buttonPl2.UseVisualStyleBackColor = true;
+            this.buttonPl2.Click += new System.EventHandler(this.ButtonPl2_Click);
             // 
             // buttonMi2
             // 
@@ -68,6 +69,7 @@
             this.buttonMi2.TabIndex = 17;
             this.buttonMi2.Text = "-";
             this.buttonMi2.UseVisualStyleBackColor = true;
+            this.buttonMi2.Click += new System.EventHandler(this.ButtonMi2_Click);
             // 
             // buttonPl1
             // 
@@ -77,6 +79,7 @@
             this.buttonPl1.TabIndex = 16;
             this.buttonPl1.Text = "+";
             this.buttonPl1.UseVisualStyleBackColor = true;
+            this.buttonPl1.Click += new System.EventHandler(this.ButtonPl1_Click);
             // 
             // buttonMi1
             // 
@@ -86,6 +89,7 @@
             this.buttonMi1.TabIndex = 15;
             this.buttonMi1.Text = "-";
             this.buttonMi1.UseVisualStyleBackColor = true;
+            this.buttonMi1.Click += new System.EventHandler(this.ButtonMi1_Click);
             // 
             // label1
             // 
@@ -117,6 +121,7 @@
             0,
             0,
             0});
+            this.numericUpDown2.ValueChanged += new System.EventHandler(this.NumericUpDown2_ValueChanged);
             // 
             // numericUpDown1
             // 
@@ -134,6 +139,7 @@
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(225, 22);
             this.numericUpDown1.TabIndex = 12;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.NumericUpDown1_ValueChanged);
             // 
             // textBox2
             // 
@@ -142,6 +148,8 @@
             this.textBox2.Size = new System.Drawing.Size(226, 22);
             this.textBox2.TabIndex = 11;
             this.textBox2.Text = "1";
+            this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox2_KeyPress);
             // 
             // textBox1
             // 
@@ -150,6 +158,8 @@
             this.textBox1.Size = new System.Drawing.Size(226, 22);
             this.textBox1.TabIndex = 10;
             this.textBox1.Text = "0";
+            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox1_KeyPress);
             // 
             // Form2
             // 
